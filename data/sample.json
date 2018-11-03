@@ -1,0 +1,22 @@
+[
+	{
+		"Name" : "Jane Doe",
+		"Symptom" : "Cold",
+		"Blood Pressure" : "115/80",
+		"Temperature" : "95.6"
+	},
+	{
+		"Name" : "John Doe",
+		"Symptom" : "Flu",
+		"Blood Pressure" : "120/90",
+		"Temperature" : "96.5"
+	},
+	{
+		"Name" : "Yoda",
+		"Symptom" : "Unknown",
+		"Blood Pressure" : "110/80",
+		"Temperature" : "96"
+	}
+
+
+]

@@ -1,0 +1,15 @@
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<div class="view1">
+		</div>
+		<h2 style="text-align: center;"><span style="color: #00ccff;">Care Plan for Patient [0]</span></h2>
+		<h2 style="text-align: left;"><span style="color: #00ccff;">Possible Symptoms: </h2>
+		  <ul style="text-align: center;">
+		  <li onmouseover="hover(this)" onmouseout="hoverOff(this)" ondblclick="diagnosis(this)">Cough{{$scope.diagnosis.name}}</li>
+		  <li onmouseover="hover(this)" onmouseout="hoverOff(this)" >Headache{{$scope.diagnosis.name}}</li>
+		  <li onmouseover="hover(this)" onmouseout="hoverOff(this)" >Yellow tint on eyes{{$scope.diagnosis.name}}</li>
+		</ul>
+		<p>Double click for possible diagnosis</p>
+</body>
