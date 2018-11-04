@@ -14,6 +14,7 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
 
   $routeProvider.otherwise({redirectTo: '/view1'});
 }]);
+console.log("testtest in myApp");
 
 myApp.service('JSONservice', function($http, $q) {
 
@@ -21,7 +22,6 @@ myApp.service('JSONservice', function($http, $q) {
 	$http.get('data/sample.json').then(function(d) {
 		deferred.resolve(d);
 	});
-
 	this.getSymptoms = function(d) {
 		return deferred.promise;
 	}	

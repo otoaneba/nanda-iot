@@ -25,3 +25,26 @@ function hoverOff(element)
 function diagnosis(element) {
 	window.location.href = "#!/view2";
 }
+
+console.log("test");
+
+myApp.service('JSONservice', function($http, $q) {
+
+	var deferred = $q.defer();
+	$http.get('data/sample.json').then(function(d) {
+		deferred.resolve(d);
+	});
+
+	this.getSymptoms = function(d) {
+		return deferred.promise;
+	}	
+
+});
+
+myApp.controller("JSONController", function($scope, JSONservice) {
+	var promise = JSONservice.getSymptoms();
+	promise.then(function(d) {
+		$scope.symptoms = d.data;
+		console.log($scope.symptoms);
+	})
+});
