@@ -1,0 +1,36 @@
+{"diabetes": 
+	[81.27743601799011, [
+							"fatigue", 
+							"excessive thirst", 
+							"frequent need to urinate", 
+							"unexplained weight fluctuations", 
+							"extreme hunger", 
+							"tingling/numbness in hands or feet", 
+							"very dry or itchy skin", 
+							"red, swollen tender gums", 
+							"sudden blurred vision or floating spots in your vision", "slow healing sores or frequent infections", 
+							"foamy looking urine"]], 
+ "caregiver burnout": 
+ 	[4.323616623878479, [
+ 							"Sleep disturbances and fatigue", 
+ 							"Lost interest in once-pleasurable things", 
+ 							"Changes in appetite, weight, or both", 
+ 							"Getting sick more often", 
+ 							"Withdrawal from social contacts", 
+ 							"Persistent feelings of worry, hopelessness and sadness", "Irritability", 
+ 							"Low self-esteem", 
+ 							"Overreacting to minor issues", 
+ 							"Decreased productivity", 
+ 							"Alcohol or drug abuse"]], 
+ "dementia": 
+ 	[2.1629951894283295, [
+ 							"memory loss", 
+ 							"confusion", 
+ 							"problems with judgment, planning and concentration", "personality and mood changes"]], 
+ "addiction": 
+ 	[-3.725290298461914e-07, [
+ 							"uncontrollable craving for the substance", 
+ 							"willingness to go to extremes to get the substance", 
+ 							"taking risks", 
+ 							"acting undependably", 
+ 							"ignoring all responsibilities while under the influence"]]}
