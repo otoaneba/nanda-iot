@@ -26,12 +26,11 @@ function diagnosis(element) {
 	window.location.href = "#!/view2";
 }
 
-console.log("test");
 
 myApp.service('JSONservice', function($http, $q) {
 
 	var deferred = $q.defer();
-	$http.get('data/sample.json').then(function(d) {
+	$http.get('data/output.json').then(function(d) {
 		deferred.resolve(d);
 	});
 
@@ -44,7 +43,10 @@ myApp.service('JSONservice', function($http, $q) {
 myApp.controller("JSONController", function($scope, JSONservice) {
 	var promise = JSONservice.getSymptoms();
 	promise.then(function(d) {
-		$scope.symptoms = d.data;
-		console.log($scope.symptoms);
+		$scope.data = d.data.diabetes[1];
+		console.log(d.data);
+		console.log($scope.data);
+		//console.log($scope.data.diabetes[1]);
 	})
+
 });

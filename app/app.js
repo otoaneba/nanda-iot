@@ -7,6 +7,7 @@ var myApp = angular.module('myApp', [
   'myApp.view2',
   'myApp.view3',
   'myApp.view4',
+  'myApp.view5',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
@@ -19,7 +20,7 @@ console.log("testtest in myApp");
 myApp.service('JSONservice', function($http, $q) {
 
 	var deferred = $q.defer();
-	$http.get('data/sample.json').then(function(d) {
+	$http.get('data/output.json').then(function(d) {
 		deferred.resolve(d);
 	});
 	this.getSymptoms = function(d) {
