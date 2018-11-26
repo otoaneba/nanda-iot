@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Card1</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="got-header">
+        <a href="./patient-profile/index.html">
+            <div id="top-characters-tab" class="got-tab active" data-house="top" >
+                <img src="./img/patient.png">
+                <p>Patient Graph</p>
+            </div>
+        </a>
+        <a href="./patient/index.html">
+            <div id="stark-characters-tab" class="got-tab" data-house="stark">
+                <img src="./img/medical-history-1.png">
+                <p>Patient History</p>
+            </div>
+        </a>
+        <div id="targaryen-characters-tab" class="got-tab" data-house="targaryen">
+            <img src="./img/conversation.png">
+            <p>Conversation</p>
+        </div>
+        <div id="tyrell-characters-tab" class="got-tab" data-house="tyrell">
+            <img src="./img/stethoscope.png">
+            <p>Possible Diagnosis</p>
+        </div>
+        <a href ="./patient-medicine/index.html"
+            <div id="other-characters-tab" class="got-tab" data-house="other">
+                <img src="./img/pills-1.png">
+                <p>Patient Midicine</p>
+            </div>
+        </a>
+    </div>
+    <div id="main">
+
+    </div>
+    <p>Jane Doe</p>
+</body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="./characters.js"></script>
+<script src="./got_survival.js"></script>
+</html>
+
+<!--  <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+    height: 100px;
+    width: 100%;
+    overflow-y: hidden;
+    display: block;
+    text-align: center;
+    background-color: #3C3C3C;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    width: 14.2857142857%;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.1s ease-in 0s;
+}
+.got-tab img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    opacity: 1;
+}
+
+.got-tab p {
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+</style>
+</head>
+<body>
+
+<div class="tab">
+  <button class="got-tab" onclick="openCity(event, 'London')"><img src="./img/patient.png">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+     
+</body>
+</html> 
+ -->

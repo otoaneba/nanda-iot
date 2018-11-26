@@ -1,0 +1,66 @@
+[
+  {
+  	"date": "01-2018",
+    "name": "Jane Doe",
+    "medicine": "vicodin",
+    "duration": "3 months",
+    "expiration": "01-2019",
+    "class": "opioid"
+  },
+  {
+    "date": "02-2018",
+    "name": "Jane Doe",
+    "medicine": "synthroid",
+    "duration": "3 years",
+    "expiration": "01-2019",
+    "class": "thyroxines"
+  },
+    {
+    "date": "03-2018",
+    "name": "Jane Doe",
+    "medicine": "delasone",
+    "duration": "3 years",
+    "expiration": "01-2019",
+    "class": "prednisone"
+  },
+    {
+    "date": "04-2018",
+    "name": "Jane Doe",
+    "medicine": "Adderall",
+    "duration": "5 months",
+    "expiration": "01-2019",
+    "class": "opioid"
+  },
+    {
+    "date": "05-2018",
+    "name": "Jane Doe",
+    "medicine": "neurontin",
+    "duration": "3 months",
+    "expiration": "01-2019",
+    "class": "gabapentin"
+  },
+    {
+    "date": "06-2018",
+    "name": "Jane Doe",
+    "medicine": "prinivil",
+    "duration": "3 months",
+    "expiration": "01-2019",
+    "class": "lisinopril"
+  },
+    {
+    "date": "07-2018",
+    "name": "Jane Doe",
+    "medicine": "lipitor",
+    "duration": "3 months",
+    "expiration": "01-2019",
+    "class": "atorvastatin"
+  },
+    {
+    "date": "08-2018",
+    "name": "Jane Doe",
+    "medicine": "glucophage",
+    "duration": "3 months",
+    "expiration": "01-2019",
+    "class": "metformin"
+  }
+]
