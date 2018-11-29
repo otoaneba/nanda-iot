@@ -1,11 +1,11 @@
-d3.json("history.json", function(error, data) {
+d3.json("./history.json", function(error, data) {
     if(error) {
         console.error('Error loading patient history data');
         console.error(error);
         return;
     }
-
-    console.log(data[0]);
+    
+    //console.log(data[0]);
 
     var patientHistory = d3.select('patient');
 
@@ -42,6 +42,11 @@ d3.json("history.json", function(error, data) {
     trPatient.append('td')
         .text(function(patient) {
             return patient['possible diagnosis'];
+        });
+
+    trPatient.append('td')
+        .text(function(patient) {
+            return patient['temperature'];
         });
 
     trPatient.append('td')

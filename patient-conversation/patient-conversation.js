@@ -39,10 +39,6 @@ d3.json("conversation.json", function(error, data) {
             return patient['date'];
         });
 
-    trPatient.append('td')
-        .text(function(patient) {
-            return patient['possible diagnosis'];
-        });
 
     trPatient.append('td')
         .style('text-align', 'center')
@@ -74,5 +70,5 @@ d3.json("conversation.json", function(error, data) {
             return patient['respitory_rate'];
         });
 
-
 });
+

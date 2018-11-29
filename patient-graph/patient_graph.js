@@ -251,17 +251,17 @@ d3.csv('./weight.csv', function(error, dataset) {
 
     svg.append('text')
             .attr('class', 'axisLabel')
-            .attr('transform', 'translate(25, 800)rotate(-90)')
+            .attr('transform', 'translate(25, 750)rotate(-90)')
             .style('font-weight', 'bold')
             .style('font-family', 'sans-serif')
-            .text('Mean Respiratory Rate');
+            .text('Patient Body Temperature');
 
     svg.append('text')
         .attr('class', 'chartLabel')
         .attr('transform', 'translate(130, 480)')
         .style('font-weight', 'bold')
         .style('font-family', 'sans-serif')
-        .text('Mean Respiratory Rate by Month');
+        .text('Patient Body Temperature');
 
 
     var lineInterpolate = d3.line()
