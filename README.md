@@ -1,3 +1,21 @@
-# nanda-iot
+#####################################
+			Tab to folder
+#####################################
 
-Project repository for CS 4605.
+#tab icon
+./img
+
+#Conversation Tab
+./patient-conversation
+
+#Possible Diagnosis Tab
+./patient-diagnosis
+
+#Patient Graph Tab
+./patient-graph
+
+#Patient History Tab
+./patient-history
+
+#Patient Medicine Tab
+./patient-medicine

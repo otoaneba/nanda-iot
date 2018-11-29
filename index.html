@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>nanda-iot</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="got-header">
+        <a href="./patient-graph/index.html" target="search_iframe">
+            <div id="top-characters-tab" class="got-tab active" data-house="top" >
+                <img src="./img/patient.png">
+                <p>Patient Graph</p>
+            </div>
+        </a>
+        <a href="./patient-history/index.html" target="search_iframe">
+            <div id="stark-characters-tab" class="got-tab" data-house="stark">
+                <img src="./img/medical-history-1.png">
+                <p>Patient History</p>
+            </div>
+        </a>
+        <a href="./patient-conversation/index.html" target="search_iframe">
+            <div id="other-characters-tab" class="got-tab" data-house="stark">
+                <img src="./img/conversation.png">
+                <p>Conversation</p>
+            </div>
+        </a>
+        <a href="./patient-diagnosis/index.html" target="search_iframe">
+            <div id="tyrell-characters-tab" class="got-tab" data-house="tyrell">
+                <img src="./img/stethoscope.png">
+                <p>Possible Diagnosis</p>
+            </div>
+        </a>>
+        <a href ="./patient-medicine/index.html" target="search_iframe">
+            <div id="other-characters-tab" class="got-tab" data-house="other">
+                <img src="./img/pills-1.png">
+                <p>Patient Medicine</p>
+            </div>
+        </a>
+    </div>
+    <div id="main">
+
+    </div>
+    <p style="font-family:verdana;"><strong>Jane Doe Data</strong></p>
+    <iframe src="./patient-graph/index.html" allowTransparency="true" scrolling="no" frameborder="0" height="900" width="1080" name="search_iframe" >
+    </iframe>
+</body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="./update_tab.js"></script>
+</html>
